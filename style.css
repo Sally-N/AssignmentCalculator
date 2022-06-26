@@ -1,0 +1,113 @@
+@import url('https://css.gg/backspace.css');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* * {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-left: 300px;
+    vertical-align: middle;
+    padding: 10px 20px 10px 180px;
+    width: 700px;
+    height: 800px;
+    background-color: #f5a66b;
+}
+
+.container {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 350px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;
+    /* border: solid black 0.2px; */
+    border-radius: 7%;
+}
+
+.display {
+    /* border: solid black 0.2px; */
+    height: 100px;
+    width: 300px;
+    flex-direction: row;
+    padding-bottom: 15px;
+    
+}
+
+.display .screen {
+    margin-left: 8px;
+    margin-top: 8px;
+    height: 80px;
+    width: 290px;
+    background-color: #eeecec;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#input-text {
+    height: 70px;
+    width: 280px;
+    background-color: #eeecec;
+    font-weight: 600;
+    font-size: 23px;
+    border-radius: 4%;
+    text-align: right;
+}
+
+.table {
+    /* padding-top: 10px; */
+    /* padding-left: 0px; */
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;
+    /* border: solid black 0.2px; */
+    /* border-radius: 7%; */
+}
+
+tr {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.btn {
+    border: 0cm;
+    margin: 05px;
+    height: 60px;
+    width: 60px;
+    box-shadow: #ebebeb;
+    font-style: 'Namum Gothic', Poppins;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+#equals {
+    background-color: #f5a66b;
+    /* font: black; */
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
